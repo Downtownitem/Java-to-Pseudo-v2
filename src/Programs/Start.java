@@ -1,13 +1,13 @@
 package Programs;
 
-import Interface.Main;
+import Interface.Menu;
 
 public class Start {
-    
+
     public static void main(String[] args) {
-        Main main = new Main();
-        main.main(null);
-                
+        Menu m = new Menu();
+        m.main(null);
+        
     }
 
 }
